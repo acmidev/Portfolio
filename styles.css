@@ -309,6 +309,11 @@ form input {
     border-radius: 4px;
     margin-bottom: 20px;
 }
+input:focus-visible {
+    outline: none;
+    border: 2px solid var(--light-dark);
+    
+}
 .form-button{
     display:flex;
     justify-content:end;
